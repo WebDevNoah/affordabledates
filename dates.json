@@ -1,0 +1,60 @@
+{
+    "dates": [
+        {
+            "name": "Beach Picnic at South Pointe Park",
+            "description": "Enjoy a relaxing picnic with ocean views at South Pointe Park in Miami Beach.",
+            "price": "$20 (for food & drinks)",
+            "image": "images/south_pointe_park.jpg",
+            "link": "https://www.miamibeachfl.gov/south-pointe-park"
+        },
+        {
+            "name": "Wynwood Walls Art Walk",
+            "description": "Explore stunning street art at Wynwood Walls for free.",
+            "price": "Free",
+            "image": "images/wynwood_walls.jpg",
+            "link": "https://thewynwoodwalls.com/"
+        },
+        {
+            "name": "Kayaking at Oleta River State Park",
+            "description": "Paddle through the mangroves at Oleta River State Park for an affordable adventure.",
+            "price": "$30 per kayak rental",
+            "image": "images/oleta_river.jpg",
+            "link": "https://www.floridastateparks.org/parks-and-trails/oleta-river-state-park"
+        },
+        {
+            "name": "Sunset at Bayside Marketplace",
+            "description": "Watch the sunset over Biscayne Bay with live music and a vibrant atmosphere.",
+            "price": "Free",
+            "image": "images/bayside_marketplace.jpg",
+            "link": "https://www.baysidemarketplace.com/"
+        },
+        {
+            "name": "Fairchild Tropical Botanic Garden",
+            "description": "Stroll through a breathtaking collection of tropical plants.",
+            "price": "$12 per person (with student discount)",
+            "image": "images/fairchild_garden.jpg",
+            "link": "https://www.fairchildgarden.org/"
+        },
+        {
+            "name": "Deering Estate Nature Walk",
+            "description": "Enjoy a peaceful nature walk at the historic Deering Estate.",
+            "price": "$15 per person",
+            "image": "images/deering_estate.jpg",
+            "link": "https://deeringestate.org/"
+        },
+        {
+            "name": "Flamingo Gardens Wildlife Encounter",
+            "description": "See beautiful flamingos and other wildlife at Flamingo Gardens.",
+            "price": "$25 per person",
+            "image": "images/flamingo_gardens.jpg",
+            "link": "https://www.flamingogardens.org/"
+        },
+        {
+            "name": "Little Havana Cuban Experience",
+            "description": "Walk through Little Havana, try Cuban coffee, and experience live music.",
+            "price": "$10 (for snacks and drinks)",
+            "image": "images/little_havana.jpg",
+            "link": "https://www.miamiandbeaches.com/neighborhoods/little-havana"
+        }
+    ]
+}
