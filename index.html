@@ -8,36 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>Affordable Dates in South Florida</h1>
+        <h1><span class="highlight">Miami</span> <span class="sub-highlight">Florida, USA, North America</span></h1>
+        <p>Beautiful beaches and art deco delights are just some of Miami's many charms, but don't forget the blazing nightlife, tropical gardens, a lively arts scene, and sizzling cuisine.</p>
+        <div class="button-container">
+            <button class="btn green">Best Time To Visit →</button>
+            <button class="btn red">Best Things To Do →</button>
+        </div>
     </header>
-    <main id="date-list" class="container">
-        <!-- Date ideas will be dynamically loaded here -->
-    </main>
-    <footer>
-        <p>Contact us at <a href="mailto:contactnoahtesh@gmail.com">contactnoahtesh@gmail.com</a></p>
-    </footer>
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch('dates.json')
-                .then(response => response.json())
-                .then(data => {
-                    const dateList = document.getElementById("date-list");
-                    data.dates.forEach(date => {
-                        const dateCard = document.createElement("div");
-                        dateCard.classList.add("date-card");
-                        dateCard.innerHTML = `
-                            <img src="${date.image}" alt="${date.name}">
-                            <h2>${date.name}</h2>
-                            <p>${date.description}</p>
-                            <p><strong>Price:</strong> ${date.price}</p>
-                            <a href="${date.link}" target="_blank">Visit Website</a>
-                        `;
-                        dateList.appendChild(dateCard);
-                    });
-                })
-                .catch(error => console.error("Error loading date ideas:", error));
-        });
-    </script>
+    <section class="main-content">
+        <h2>Must-see attractions</h2>
+        <div id="date-list" class="date-grid"></div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
